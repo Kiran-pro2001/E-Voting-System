@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System for Punjab By Er. Kiran Kumar</title>
+    <style>
+        *{
+            font-size: 25px;
+            /* padding: 50px; */
+        }
+        .main {
+            width: 100%;
+            text-align: center;
+            color: red;
+            background-color: yellow;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* .vote {
+            text-align: center;
+        }
+        tr{
+            text-align: center;
+        } */
+        tr{
+            padding: 3000px;
+        }
+        fieldset{
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 90px;
+        }
+        .vote{
+            /* width: 50%; */
+            height: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="election.jpg" width="100%">
+    <hr>
+    <div class="main">
+        <h1>E-Voting System for Punjab</h1>
+    </div>
+
+    <div class="vote"> 
+        
+        <!-- <h2>Punjab Election 2022</h2> -->
+        <fieldset style="background-color: grey" >
+            
+            
+                    <table action="/action_page.php" method="get" padding="30px" >
+                        <!-- <caption>Punjab Election 2022</caption>  -->
+                        <tr>
+                            <td>First Name: </td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name: </td>
+                            <td><input type="text"> </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Candidate Name</td>
+                            <td>
+                                <select>
+                                    <option>Sujanpur- Dinesh Singh Babbu</option>
+                                    <option>Amritsar North- Sukhwinder Singh Pintu</option>
+                                    <option>Kapurthala- Ranjit Singh Khojewala</option>
+                                    <option>Hoshiarpur- Shri Tikshan Sood</option>
+                                    <option>Jalandhar Central- Manoranjan Kalia</option>
+                                    <option>Jalandhar North- Krishna Dev Bhandari</option>
+                                    <option>Jalandhar West (SC)- Mahinder Pal Bhagat</option>
+                                    <option>Gurdaspur: Parminder Singh Gill</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Party</td>
+                            <td>
+                                <select>
+                                    <option>Indian National Congress</option>
+                                    <option>Aam Aadmi Party</option>
+                                    <option>Shiromani Akali Dal (Badal)</option>
+                                    <option>Shiromani Akali Dal (Sanyukt)</option>
+                                    <option>Bharatiya Janata Party</option>
+                                    <option>Punjab Lok Congress</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sex</td>
+                            <td>
+                                <input type="radio" name="sex">Male
+                                <input type="radio" name="sex">Female
+                                <input type="radio" name="sex">Others
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td><input type="reset" ></td>
+                        </tr>
+                        
+                    
+                    </table> <br>
+                    <!-- <button>Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button>Reset</button> -->
+                    
+                    <!-- <br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button> -->
+                
+            </fieldset>
+        
+    </div>
+
+
+</body>
+
+</html>
